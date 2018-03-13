@@ -77,6 +77,6 @@ void loop() {
 		digitalWrite(ledPin, HIGH);
 		Serial.println("ALARM");
 	} else {
-		ditialWrite(ledPin, LOW);
+		digitalWrite(ledPin, LOW);
 	}
 }
