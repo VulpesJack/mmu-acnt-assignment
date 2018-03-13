@@ -56,8 +56,8 @@ void loop() {
 	// Print message to serial denoting that the loop has started
 	Serial.println("UNO GO");
   
-  // Start calibration
-  ldrCal();
+	// Start calibration
+	ldrCal();
 	
 	// Take readings from LDR sensors
 	int ldr0Val = analogRead(ldr0Pin);
