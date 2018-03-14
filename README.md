@@ -1,4 +1,4 @@
-# mmu-acnt-assignment
+# Advanced Computer and Network Technology Assignment Repo
 This repo exists to share code between the members of Team Apollo, a three man team of Computer and Network Technology students at Manchester Metropolitan University.
 
 ## About Assignment
