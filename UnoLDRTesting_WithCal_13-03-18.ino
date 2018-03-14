@@ -3,7 +3,7 @@
  * by Jack Noble
  *
  * Created: 13-03-2018
- * Revised: xx-xx-xxxx
+ * Revised: 14-03-2018
  *
  * Function: Reads ambient light from LDR pressed against skin
  * if light increases past a calibrated threshold, an alarm
@@ -47,6 +47,9 @@ void setup() {
 	// Print boot message to serial
 	Serial.println("UNO OK");
 	
+	// Start calibration
+	ldrCal();
+	
 }
 
 void loop() {
@@ -55,9 +58,6 @@ void loop() {
 	
 	// Print message to serial denoting that the loop has started
 	Serial.println("UNO GO");
-  
-	// Start calibration
-	ldrCal();
 	
 	// Take readings from LDR sensors
 	int ldr0Val = analogRead(ldr0Pin);
