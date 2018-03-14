@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A webapp for Team Apollo's Live Project">
+		
+		<title>Patient Monitoring App &ndash; InDev &ndash; Using PureCSS</title>
+		
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+		
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+		<![endif]-->
+		<!--[if gt IE8]><!-->
+			<link rel="stylesheet" href="css/layouts/side-menu.css">
+		<!--<![endif]-->
+	</head>
+	<body>
+		<!-- Toggle menu button -->
+		<a href="#menu" id="menuLink" class="menu-link">
+			<!-- Hamburger Icon -->
+			<span></span>
+		</a>
+		
+		<div id="menu">
+			<div class="pure-menu">
+				<a class="pure-menu-heading" href="#">Dashboard</a>
+				
+				<ul class="pure-menu-list">
+					<li class="pure-menu-item"><a href="#" class="pure-menu-link">Overview</a></li>
+					<li class="pure-menu-item"><a href="#" class="pure-menu-link">Configuration</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="main">
+			<div class="header">
+				<h1>Overview</h1>
+				<h2>View data on all connected monitors here.</h2>
+			</div>
+			
+			<div class="content">
+				<h2>Test</h2>
+			</div>
+		</div>
+		
+		<script src="js/ui.js"></script>
+		
+	</body>
+</html>
